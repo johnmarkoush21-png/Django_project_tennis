@@ -6,4 +6,5 @@ from .models import Member
 class MemberAdmin(admin.ModelAdmin):
   list_display = ("firstname", "lastname", "joined_date",)
   
+#I see this is riht
 admin.site.register(Member, MemberAdmin)
